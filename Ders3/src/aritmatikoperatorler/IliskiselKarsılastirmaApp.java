@@ -7,7 +7,7 @@ public class IliskiselKarsılastirmaApp {
         int a=5,b=10;
         //<,<=,>,>=,==.!=
         boolean sonuc;
-        sonuc=a<b
+        sonuc=a<b ;
         System.out.println("A'nın B'den küçük olma durumu: "+sonuc);
         System.out.println(a<b);
         sonuc=a>b;
