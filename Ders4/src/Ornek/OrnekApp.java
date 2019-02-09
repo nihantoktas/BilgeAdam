@@ -8,7 +8,7 @@ public class OrnekApp {
         int i;
         for(i=1;i<100;i++){
             System.out.println("fizz");
-        } else if (i%5==0){
+        } if (i%5==0){
             System.out.println("buzz");
         } else {
 
