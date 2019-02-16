@@ -12,7 +12,7 @@ public class SayiTahminOyunuApp {
     //bir uygulama yazınız
     public static void main(String[] args) {
 
-       /* boolean flag=true;
+        boolean flag=true;
         do {
             int sayi;
             int gelensayi = (int) Math.random() * 20;
@@ -37,16 +37,8 @@ public class SayiTahminOyunuApp {
                 System.out.println("tekrar deneyiniz");
             }
 
-        } while(flag);*/
-       Scanner input=new Scanner(System.in);
-       int rastGeleUretilenSayi=(int) (Math.random()*10);
-       int tahmin=0;
-       boolean devamEdilsinMi=false;
-       do {
-           System.out.println("bir tahmin de bulunun:");
-           tahmin=input.nextInt();
-           if (tahmin==rastGeleUretilenSayi+2 || tahmin==rastGeleUretilenSayi)
-       }
+        } while(flag);
+
 
 
     }
